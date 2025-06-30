@@ -41,3 +41,21 @@ string
 boolean
 
 these are the datatypes in python'''
+
+
+#examples of integer 
+
+a= 10 #this whole number thier is no floating values :
+print("this is integer value :{}".format(a))
+
+a= 10.0 #this whole number thier is no floating values :
+print("this is float value :{}".format(a))
+
+a= "dheena" #this whole number thier is no floating values :
+print("this is string value :{}".format(a))
+
+a= 1 #this whole number thier is no floating values :
+print("this is Bool positive value :{}".format(bool(a)))
+
+a= 0 #this whole number thier is no floating values :
+print("this is Bool negative value :{}".format(bool(a)))
