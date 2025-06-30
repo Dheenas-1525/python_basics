@@ -208,3 +208,13 @@ print(string[0][6])
 d="dheena"
 msg=("brue wyane is {d}".format(d=d))
 print(msg)
+
+
+#string concordintion:
+a = 'dheena'
+
+b= 'dhayalan'
+
+c= a + b
+
+print(c)
