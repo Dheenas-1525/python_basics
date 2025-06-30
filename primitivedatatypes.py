@@ -146,3 +146,36 @@ if(10<100 & 100<10): #0+0=0
     print(True)
 else:
     print(False)
+
+#this is example of or gates :
+'''rules of or gates
+a b r 
+0 0 0
+0 1 1
+1 0 1
+1 1 0 '''
+
+
+
+print("helloe this is from OR gates.....")
+
+if(10<100 or 100>10):#1+1=0
+    print(False)
+else:
+    print(True)
+
+
+if(10>100 or 100>10):#0+1=1
+    print(True)
+else:
+    print(False)
+
+if(10<100 or 100>10):#1+0=1
+    print(True)
+else:
+    print(False)
+
+if(10<100 or 100<10):#0+0=0
+    print(False)
+else:
+    print(True)
