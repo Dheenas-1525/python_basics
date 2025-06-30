@@ -179,3 +179,32 @@ if(10<100 or 100<10):#0+0=0
     print(False)
 else:
     print(True)
+
+#datatypes memory management:
+a=1
+b=1
+print(id(a))
+print(id(b))
+
+a=[1,2,3,4,5]
+b=[1,2,3,4,5]
+print(id(a))
+print(id(b))
+
+#mutuable and imutable datatype:
+string = ['hello world']
+print(string)
+
+for i in range (len(string[0])):
+    print("letters in {} -> {}".format(string[0][i],i))
+
+print(string[0][6])
+
+# string[0][6]='u'
+
+# print(string)#this will  not work becuase string is immutable 
+
+#message idication
+d="dheena"
+msg=("brue wyane is {d}".format(d=d))
+print(msg)
