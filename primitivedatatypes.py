@@ -215,6 +215,6 @@ a = 'dheena'
 
 b= 'dhayalan'
 
-c= a + b
+c= a + ' ' + b # if need space use this open bracket wiht space ...
 
 print(c)
