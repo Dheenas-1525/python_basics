@@ -255,3 +255,31 @@ print(list)
 list.pop(2)
 
 print(list)
+
+
+l=[1,2,3,4,5,6,7,8,9]
+print(l)
+
+print(l[1:5])
+
+print(list[1:3])
+
+new_list = list[::1]
+
+print(new_list)
+
+print(new_list[::-1])
+
+# num = list(range(0, 101))
+# print(num)
+
+#in keyword:
+
+name = 'dheena'
+
+print(name)
+
+if 'dheena' in name:
+    print(True)
+else:
+    print(False)
