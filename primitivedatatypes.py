@@ -238,3 +238,20 @@ list =[]
 list=['dheena', 'dhayalan', 'subraja', 'sridhar']
 print(list)
 print(len(list))
+
+list[3]='dheena'
+
+print(list)#this one is work so list mutubale 
+
+list.append('karthi')
+
+print(list)
+
+
+list.remove('dheena')
+
+print(list)
+
+list.pop(2)
+
+print(list)
