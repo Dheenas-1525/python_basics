@@ -218,3 +218,23 @@ b= 'dhayalan'
 c= a + ' ' + b # if need space use this open bracket wiht space ...
 
 print(c)
+
+
+#collections of python :
+''' there are four types of collection in python 
+1)list
+2)tuple
+3)dictionaries
+4)set
+
+these are the collections  in python '''
+
+#first to see list in python 
+
+#syntax of list :
+list =[]
+#this is syntax of list
+
+list=['dheena', 'dhayalan', 'subraja', 'sridhar']
+print(list)
+print(len(list))
