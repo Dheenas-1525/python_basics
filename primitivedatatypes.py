@@ -419,3 +419,17 @@ my_name='dheena'
 for i in range(len(my_name)):
     print("letter in my name : {} -> {}".format(i,my_name[i]))
 print("total letters of my_name is -> {}".format(len(my_name)))
+
+#while loop:
+
+var = 10
+while var<=15:
+    print("hi im from while loop world..")
+    var =  var + 1
+print("loop exited")
+
+for i in range(10,100):
+    print(i)
+    if(i>60):
+        break
+print("loop exited")
