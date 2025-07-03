@@ -433,3 +433,10 @@ for i in range(10,100):
     if(i>60):
         break
 print("loop exited")
+
+for i in range(10,100):
+    if i%2!=0:
+        continue
+    else:
+        print(i)
+print("this is from even number")
