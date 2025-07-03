@@ -440,3 +440,22 @@ for i in range(10,100):
     else:
         print(i)
 print("this is from even number")
+
+
+
+
+#enumeration:
+
+enum = ["a", "b", "c"]
+print(enum)
+
+print(type(enum))
+
+for i, value in enumerate(enum):
+    print("#{} {} :".format(i,value))
+
+
+
+my_students = ['arun', 'mani', 'nancy']
+for i in enumerate(my_students):
+    print(i)
