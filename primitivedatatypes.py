@@ -459,3 +459,34 @@ for i, value in enumerate(enum):
 my_students = ['arun', 'mani', 'nancy']
 for i in enumerate(my_students):
     print(i)
+
+#exception handling:
+'''syntax of exception handling four are three type of exception handling such that
+1)try
+2)except
+3)else
+4)finally '''
+
+f = 10
+h = 20
+ 
+try:
+    d = f+h
+    if(d == 40):
+        print("oky all good")
+    else:
+        print("noo not good")
+except:
+    print("something went wrong")
+
+
+a=10
+b=30
+try:
+   c=a+b   # Division by zero causes an error
+   print(c)
+except:
+    print("something wrong...!")  # This will run
+
+finally:
+    print("this print wll show output anyway if error occur or error...")
