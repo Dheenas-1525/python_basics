@@ -283,3 +283,108 @@ if 'dheena' in name:
     print(True)
 else:
     print(False)
+
+
+#tuple syntax:
+t=tuple()
+'''this is the syntax empty tuple'''
+t=('dheena', 'dhayalan')
+print(t)
+print(type(t))
+
+print(t[0])
+
+# t[0]='subraja'
+# print(t)
+
+
+#packing and unpacking:
+a=0
+b=0
+c=0
+
+t=(1,2,3)
+
+a,b,c=t
+
+print(a,b,c)
+
+
+
+c=0
+d=0
+f=0
+
+tupe=(1,2,3,4,5)
+
+c,d,*f=tupe
+print(c,d,f)
+
+
+#dictionaries
+
+#creating empty dictionaries:
+d={}
+d=dict()
+
+print(type(d))
+print(type(d))
+
+dic = {"one":1,"two":2,"three":3}
+print(dic)
+
+del dic['one']
+
+print(dic)
+
+
+#sets
+
+es=set()
+
+es={1,2,3,4,5}
+
+print(es)
+
+print(type(es))
+
+
+es={1,1,2,3,3,4,4,5,6}
+print(es)
+
+# sets={"name":dheena,"name":karthi,"name":dheena}
+# print(sets)
+
+my_dict = {
+    "name": "dheena",
+    "name": "karthi",
+    "name": "subraja"
+}
+print(my_dict)  # {'name': 'subraja'} — only the last one kept
+print(type(my_dict))
+
+es_1 = {"dheena",'dhayalan','dheena','dhayalan'}
+print(es_1)
+print(type(es_1))
+
+
+lis=[]
+print(type(lis))
+
+tu=()
+
+print(type(tu))
+
+
+lis = ['dheena', 'akni', 'raj']
+print(lis)
+
+lis[1] = 'dheena'
+
+print(lis)
+
+tup = ('dhena', 'akni', 'raj')
+print(tup)
+
+tup[1]='dheena'
+print(tup)# so tuple is imuttable
