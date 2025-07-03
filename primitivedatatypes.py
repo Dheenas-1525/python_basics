@@ -386,5 +386,36 @@ print(lis)
 tup = ('dhena', 'akni', 'raj')
 print(tup)
 
-tup[1]='dheena'
-print(tup)# so tuple is imuttable
+# tup[1]='dheena'
+# print(tup)# so tuple is imuttable
+
+'''control structure or control flow and iterable :
+use this control flow if ellif and else '''
+
+var = 5
+if(var > 10):
+    print("yes var greater then ten")
+elif(var<10):
+    print("yes var is lesser than ten")
+else:
+    print("no nothing is greater and lesser then ten ..")
+
+
+
+var = 50
+if(var > 10):
+    print("yes var greater then ten")
+elif(var<10):
+    print("yes var is lesser than ten")
+else:
+    print("no nothing is greater and lesser then ten ..")
+
+#loops:
+'''there are two types of loops in every programming'''
+#for loop
+
+my_name='dheena'
+
+for i in range(len(my_name)):
+    print("letter in my name : {} -> {}".format(i,my_name[i]))
+print("total letters of my_name is -> {}".format(len(my_name)))
