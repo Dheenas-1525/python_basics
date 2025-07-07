@@ -76,3 +76,4 @@ while True:
 
     result = calculator_app[choice](a,b)
     print("Result is  :",result)
+
