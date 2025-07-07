@@ -29,27 +29,50 @@ calculator_app = {
     "5":mod
 }
 
-a = int(input("enter first number to calculate : "))
-
-b = int(input("enter second number of to calculate  :  "))
 
 
-print("==================================================")
-print("The Choice OF This Calculator App :")
-
-print("1):Addition")
-print("2):sub")
-print("3):multi")
-print("4):div")
-print("5):mod")
 
 
-# print("Enter The Choice What You Want TO Calculate :  ")
+while True:
 
-choice = input("Enter the Choice Which One You Want ...! : ")
+    print("==================================================")
+    print("The Choice OF This Calculator App :")
 
-if choice in calculator_app:
+    print("1:Addition")
+    print("2:sub")
+    print("3:multi")
+    print("4:div")
+    print("5:mod")
+    print("0:Exit")
+
+
+    # print("Enter The Choice What You Want TO Calculate :  ")
+
+    choice = input("Enter the Choice Which One You Want ...! : ")
+
+    # if choice in calculator_app:
+    #     result = calculator_app[choice](a,b)
+    #     print("Result is  :",result)
+    # else:
+    #     print("Something Wrong check .....?")
+
+
+    if choice == "0":
+        print("exiting calculator .....! ")
+        break
+
+    if choice not in calculator_app:
+        print("invalid choice .  try again...")
+        continue
+
+    try:
+        a = int(input("enter first number to calculate : "))
+
+        b = int(input("enter second number of to calculate  : "))
+
+    except valueError:
+        print("pls enter valid number....")
+        continue
+
     result = calculator_app[choice](a,b)
     print("Result is  :",result)
-else:
-    print("Something Wrong check .....?")
